@@ -1,0 +1,343 @@
+*::before, *::after, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-color: red;
+}
+header{
+    width: 100%;
+    height: auto;
+    position: relative;
+    /* min-height: 40vh;
+    max-height: 50vh; */
+}
+.class{
+    width: 100%;
+    height: 5vh;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    height: auto;
+    min-height: 10vh;
+    grid-template-columns: 1.5fr 1fr;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+ 
+}
+.nav_1{
+    width: 100%;
+    background: #F6F6F6;
+    height: auto;
+    min-height: 10vh;
+}
+.nav_brand{
+    width: 100%;
+    max-width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav_brand img{
+    width: 230px;
+    height: 25px;
+    background-color:#fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.nav_brand span{
+    color: #2959CE;
+}
+.nav_brand p{
+    font-size: 17px;
+}
+.nav_input{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.3fr;
+}
+.nav__input_form{
+    width: 230px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 5px 8px;
+}
+.nav__input_form input{
+    border: transparent ;
+}
+.nav__input_form input::placeholder{
+   position: relative;
+   left: 3px;
+}
+.nav__input_checked{
+    width: 60px;
+    height: 30px;
+    background-color: #DCE6FF;
+    border-radius: 20px;
+    position: relative;
+ 
+}
+
+.nav__input_checked::before{
+    content: " ";
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #fff ;
+}
+.nav__input_checked p:nth-child(1){
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    font-size: 15px;
+}
+.nav__input_checked p:nth-child(2){
+    position: absolute;
+    top: 6px;
+    left: 30px;
+    /* left: 5px; */
+    font-size: 15px;
+    color: #A6A6A6;
+}
+.nav_input .nav__input_btn{
+    background-color: #7296EC;
+    color: #fff;
+    border: transparent;
+    border-radius: 20px;
+    order: none;
+}
+.nav_2{
+    width: 100%;
+    height: auto;
+    min-height: 8vh;
+}
+.nav_2_con{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr  1fr  1fr  1fr 1fr 1fr 1fr 1fr 1fr  1fr;
+  background: #EEEEEE;
+  padding-left: 30px;
+  border-bottom:1px solid #D1D1D1 ;
+  height: auto;
+  min-height: 8vh;
+}
+.nav_2_links{
+    text-decoration: none;
+    color: #7F7F7F;
+    font-size: 18px;
+}
+
+main{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.left__text{
+    width: 90%;
+}
+.sect_3{
+    width: 100%;
+    height: auto;
+    min-height: 160vh;
+}
+.sect_3_con{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1.3fr;
+}
+.sect_3__right{
+    height: auto;
+    max-height: 80vh;
+    background:  #F6F6F6;
+    margin-top: 10px;
+    margin-left: 8px;
+    border-radius: 10px;
+}
+.left__text-2{
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.left__text-2 p{
+    font-size: 20px;
+}
+.sect_3_right_con{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.sect-3_ul-1{
+    height: 20vh;
+    list-style: none;
+    border-bottom: 1px solid #D2D2D2;
+    display: grid;
+    grid-template-rows: max-content;
+    gap: 15px;
+}
+.sect-3__ul_li h3{
+    font-size: 18px;
+}
+.sect-3__ul_li p{
+width: 159px;
+height: 15px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+color: #5E5F61;
+}
+.sect-3_ul-2{
+    padding-top: 25px;
+    height: 20vh;
+    list-style: none;
+    border-bottom: 1px solid #D2D2D2;
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+    gap: 15px;
+}
+.ul-4{
+    border-bottom: none;
+}
+.reklama {
+    width: 390px;
+    height: 300px;
+    margin-left: -60px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #7296EC;
+}
+input[type='button']{
+    width: calc(100% - 3%);
+    padding: 7px 0;
+    border-radius: 8px;
+    border: 1px solid #000;
+}
+.section-4{
+    width: 100%;
+    height: auto;
+}
+.section-4__con{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.section-4 h2{
+    margin-left: 100px;
+}
+.class-1{
+    width: 100%;
+    height: 30px;
+}
+.sect-4__card{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #F6F6F6;
+    height: auto;
+    padding: 15px;
+}
+.sect-4__card_con{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sect-4__card_con span{
+    display: flex;
+    align-items: center;
+}
+.sect-4__card_con span img{
+    margin-right: 10px;
+}
+.sect-4__card_con span p{
+    font-size: 15px;
+}
+footer{
+    width: 100%; height: auto;
+    min-height: 45vh;
+    background: #7297EF;
+    color: #fff !important;
+}
+.footer_con{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+.footer_text{
+    display: grid;
+    grid-template-rows: subgrid;
+    gap: 25px;
+  
+}
+.footer_ul_1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    list-style: none;
+    font-size: 22px;
+}
+.footer_ul_2{
+    display: grid;
+    grid-template-rows: max-content;
+    gap: 20px;
+    list-style: none;
+    font-size: 22px;
+}
+.left__span{
+    display: flex;
+    align-items: center;
+}
+.chiziq{
+    display: grid;
+    grid-template-columns: 1fr 1fr  1fr;
+    gap: 100px;
+    height: auto;
+    min-height: 28vh;
+    align-items: center;
+    border-bottom: 1px solid #fff; 
+}
+.the_end{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+.th-end-h3{
+    width: 15%;
+}
+.icons{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+.icons i:nth-child(1){
+   color: crimson;
+}
+.icons i:nth-child(2){
+    color: blue;
+    scrollbar-color: red;
+ }
+ .icons i:nth-child(3){
+    color: crimson;
+ }
+ .icons i:nth-child(4){
+    color: rgb(0, 72, 255);
+ }
